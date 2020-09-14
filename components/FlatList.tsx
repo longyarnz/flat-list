@@ -9,8 +9,8 @@ type FlatListProps<T> = {
  * @name FlatList
  * @param {array} list an array of items to loop and render
  * @param {function} listView a function that receives each element in array and renders the result
- * @param {any} prepend an optional object that is prepended to the result array
- * @param {any} append an optional object that is appended to the result array
+ * @param {any} prepend an optional object/element/item that is added to the beginning of the result array
+ * @param {any} append an optional object/element/item that is added to the end result array
  */
 export function FlatList<T>(props: FlatListProps<T>) {
   const { list, listView } = props
